@@ -1,8 +1,8 @@
 import pandas as pd
 from flask import Flask, jsonify, request
 
-import tensorflow-cpu as tf
-from tensorflow-cpu import keras
+import tensorflow as tf
+from tensorflow import keras
 
 import urllib.request
 
